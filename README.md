@@ -47,5 +47,5 @@ pip install -r requirements.txt
 ```
 
 ## 📝 Notes
-- Make sure all dependencies from requirements.txt are installed before starting the backend.
+- Make sure all dependencies from requirements.txt are installed.
 - Make sure that all paths are set correctly.
