@@ -13,7 +13,7 @@
 - **Model Evaluation:** Scikit-learn
 - **GPU Support:** CUDA 12.1
 
-## Datasets
+## 🗂️ Datasets
 - CelebA (For Fine-Tuning YOLOv8 model)
 - Affectnet (For Fine-Tuning Pretrained Vision Transformer i.e. **vit_base_patch16_224**)
 
