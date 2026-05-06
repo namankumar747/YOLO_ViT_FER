@@ -17,7 +17,6 @@
 - CelebA (For Fine-Tuning YOLOv8 model)
 - Affectnet (For Fine-Tuning Pretrained Vision Transformer i.e. **vit_base_patch16_224**)
 
-## Getting Started
 
 ## 🛠️ Project Setup
 Follow the steps below to set up the project on your local machine.
