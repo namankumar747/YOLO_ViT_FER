@@ -45,9 +45,9 @@ pip install -r requirements.txt
 
 conda deactivate
 ```
-### 5. Set `FER_env` as the kernel for all Jupyter notebooks.
-### 6. Convert `CelebA` Dataset into the standard `YOLOv8` format using the Jupiter notebook `01Annotation_Dataset_Converter.ipynb`
+### 4. Set `FER_env` as the kernel for all Jupyter notebooks.
+### 5. Convert `CelebA` Dataset into the standard `YOLOv8` format using the Jupiter notebook `01Annotation_Dataset_Converter.ipynb`
 
-### 7. Fine-Tune and Save all Pretrained Models
+### 6. Fine-Tune and Save all Pretrained Models
 
-### 8. Set the paths of all fine-tuned saved models in the test Jupyter notebooks.
+### 7. Set the paths of all fine-tuned saved models in the test Jupyter notebooks.
