@@ -24,27 +24,30 @@ Follow the steps below to set up the project on your local machine.
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/your-username/YOLO_ViT_FER.git
-cd YOLO_ViT
+cd YOLO_ViT_FER
 ```
 
-### 2. Create a Python Virtual Environment
-In VS code Terminal
-```bash
-# Create virtual environment
-python -m venv FER_env
+### 2. Install Miniconda
+Download and install Miniconda3 from the official [Anaconda website](https://www.anaconda.com/download/success).
 
-# Activate virtual environment
-# On Windows:
-FER_env/Scripts/activate
-# On macOS/Linux:
-source FER_env/bin/activate
-```
-### 3. Install Required Libraries
+### 3. Setup Anaconda Environment
 ```bash
+# Open Anaconda Prompt
+conda create --name FER_env python=3.9
+conda activate FER_env
+
+conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
+cd path/to/YOLO_ViT_FER #path to repository folder in local machine
+
 pip install --upgrade pip
+pip install --upgrade ipykernel
 pip install -r requirements.txt
-```
 
-## 📝 Notes
-- Make sure all dependencies from requirements.txt are installed.
-- Make sure that all paths are set correctly.
+conda deactivate
+```
+### 5. Set `FER_env` as the kernel for all Jupyter notebooks.
+### 6. Convert `CelebA` Dataset into the standard `YOLOv8` format using the Jupiter notebook `01Annotation_Dataset_Converter.ipynb`
+
+### 7. Fine-Tune and Save all Pretrained Models
+
+### 8. Set the paths of all fine-tuned saved models in the test Jupyter notebooks.
